@@ -1,9 +1,10 @@
 .btn-2{
     text-align: center;
     color: white;
+    font-family: 'Suez One', serif;
 }
 .container{
-    background-color:black;
+    background-color:#000;
     text-align: center;
     height: 500px;
     margin-top: 75px;
@@ -35,4 +36,5 @@
 }
 .btn-6{
     color: #FF1493;
+    font-family: 'Suez One', serif;
 }
