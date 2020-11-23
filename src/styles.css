@@ -6,7 +6,33 @@
     background-color:black;
     text-align: center;
     height: 500px;
-    margin-top: 500px;
+    margin-top: 75px;
     border-radius: 15px;
+    position: relative;
+    margin-left: 700px;
+}
+.btn-3{
+    background-color: #FF1493;
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    margin-left: 47px;
+    margin-top: -10px;
 
+
+}
+.btn-4{
+    background-color: white;
+    width: 200px;
+    border-radius: 15px;
+    margin-left: 14px;
+}
+.btn-5{
+    background-color: white;
+    width: 200px;
+    border-radius: 15px;
+}
+.btn-6{
+    color: #FF1493;
 }
