@@ -29,13 +29,15 @@
 
     <title>Carreiras Black</title>
 </head>
-
 <body class="bnt-1">
     <div class="d-flex justify-content-center">
         <!-- <img class="logo-principal" src="img/logo.jpeg" alt="Logo Principal">-->
     </div>
     <div class="container">
-        <h2 class="btn-1">Live</h2>
+
+        <h2 class="">Live</h2>
+
+
         <div class="row">
             <div class="col">
                 <div class="container">
@@ -55,14 +57,14 @@
             </div>
             <div class="col">
                 <div class="form container">
-                    <form method="POST" action="https://carreirasblack.netlify.app/inscricao.html">
+                    <form method="GET" action="https://carreirasblack.netlify.app/inscricao.html">
                         <div id="nomeform"><b>Nome</b></div>
                         <input class="form-control" name="name" type="text" placeholder=""
                             pattern="^\D{2,}\s[\D\s]{2,}$" title="Digite seu nome completo" required /></br>
                         <div id="nomeform"><b>E-mail</b></div>
                         <input class="form-control" placeholder="" name="email" type="email"
                             title="Digite um email válido" required /></br>
-                        <input name="redirectTo" type="hidden" value="https://carreirasblack.netlify.app/inscricao.html" />
+                        <input name="redirectTo" type="hidden"/>
                         <input type="submit" value="Inscrever-se" class="btn-primary btn-block botaocenter" />
                     </form>
                 </div>
