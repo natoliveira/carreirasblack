@@ -1,7 +1,7 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
-    background-image: url(../img/mulher.jpeg);
+    background-image: url(../img/poder.jpeg);
     background-repeat: no-repeat top;
     background-clip: border-box;
     background-size: cover;
@@ -28,12 +28,12 @@ h3{
     font-weight: 700;
     padding: 0.5em 0;
     line-height: 35px;
-    color: white;
+    color: #9C33EF;
     font-size: 30px;
     font-weight: bolder;
 }
 p{
-   font-size: 24px;
+   font-size: 22px;
    color: white;
    text-align: justify;
 
@@ -62,6 +62,7 @@ p{
 }
 #btn-1{
     color: white;
+    text-align: center;
 }
 .form{
     width:280px; 
