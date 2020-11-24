@@ -1,0 +1,21 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url(../img/poder2.jpeg);
+    background-repeat: no-repeat top;
+    background-clip: border-box;
+    background-size: cover;
+    color:white;
+    font-size:200%;
+    
+}
+
+.container{
+    text-align: center;
+}
+
+.btn-6{
+    color:#9C33EF;
+}
+.btn-2{
+    color: white;
+}
