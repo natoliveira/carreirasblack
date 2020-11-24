@@ -1,7 +1,7 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
-    background-image: url(../img/mulher.jpeg) no-repeat;
+    background-image: url(../img/mulher.jpeg);
     position: absolute;
     width: 100%;
     margin-left: 400px;
@@ -78,7 +78,7 @@ border-radius: 30px;
 }
 @media(min-width:700px){
     h2{
-       font-size: 96px;
+       font-size: 100px;
        margin:0;
     }
     body{
