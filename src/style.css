@@ -1,7 +1,8 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
-    background-image: url(../img/mulher.jpeg);
+    background-image: url(../img/mulher.jpeg) no-repeat;
+    background-size:cover;
     position: absolute;
     width: 100%;
     margin-left: 400px;
