@@ -14,12 +14,12 @@ body{
 }
 
 .container{
-    text-align: center;
+    text-align: right;
 }
 
 .btn-6{
-    color: white;
+    color:#9C33EF;
 }
 .btn-2{
-    color: #803790;
+    color: white;
 }
