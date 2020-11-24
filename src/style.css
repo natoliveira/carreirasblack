@@ -1,13 +1,12 @@
-
-@media screen and (max-width: 768px) {
 body{
     font-family: 'Ubuntu', sans-serif;
-    background-image: url(../img/poder.jpeg);
+    background-image: url(../img/mulher.jpeg);
     background-repeat: no-repeat top;
-    background-size: auto;
+    background-clip: border-box;
+    background-size: cover;
     color:white;
     font-size:200%;
-}
+    
 }
 .barralateral{
     border-left:3px solid #9C33EF;
@@ -117,6 +116,7 @@ border-radius: 30px;
     }
 
 }
+
 
 
 
