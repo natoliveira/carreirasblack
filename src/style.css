@@ -4,8 +4,13 @@ body{
     background-repeat: no-repeat top;
     background-clip: border-box;
     background-size: cover;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    margin-left: 400px;
     color:white;
     font-size:200%;
+    display: flex; 
     
 }
 .barralateral{
