@@ -14,12 +14,14 @@ h2{
     border-bottom:3px solid #9C33EF;
     display: inline-block;
     margin: 0 0.5em;
+    color: white;
 }
 h3{
     font-family:'Titillium Web', sans-serif;
     font-weight: 700;
     padding: 0.5em 0;
     line-height: 35px;
+    color: white;
 }
 p{
    font-size: 20px;
@@ -31,6 +33,7 @@ p{
     font-weight: 700;
     background-color:#000;
     font-size:26px;
+    color: white;
 }
 
 .caixadireita{
@@ -43,6 +46,9 @@ p{
 .caixaesquerda{
     width: 240px; 
 
+}
+#btn-1{
+    color: white;
 }
 .form{
     width:280px; 
