@@ -14,7 +14,8 @@ body{
 }
 
 .container{
-    text-align: right;
+    text-align: left;
+    text-align: justify;
 }
 
 .btn-6{
