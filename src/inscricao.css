@@ -1,13 +1,11 @@
 body{
     font-family: 'Ubuntu', sans-serif;
-    background-image: url(../img/mulher.jpeg);
+    background-image: url(../img/foto.jpg);
     background-repeat: no-repeat top;
     background-clip: border-box;
     background-size: cover;
     justify-content: center;
     position: absolute;
-    height:100vw;
-    width: 100vh;
     color:white;
     font-size:200%;
     display: flex; 
