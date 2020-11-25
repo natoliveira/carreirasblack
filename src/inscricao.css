@@ -1,6 +1,6 @@
 body{
     font-family: 'Ubuntu', sans-serif;
-    background-image: url(../img/preta.jpg);
+    background-image: url(../img/carolina.jpg);
     background-repeat: no-repeat top;
     background-clip: border-box;
     background-size: cover;
@@ -12,10 +12,10 @@ body{
 }
 
 .container{
-    text-align: center;
+    text-align: right;
     text-align: justify;
+    font-size: bolder;
     font-family:'Titillium Web', sans-serif;
-
 }
 
 .btn-6{
