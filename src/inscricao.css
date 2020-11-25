@@ -2,6 +2,9 @@ body{
     font-family: 'Ubuntu', sans-serif;
     background-image: url(../img/mulher.jpeg) no-repeat top fixed;
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
 }
 
 .container{
