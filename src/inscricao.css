@@ -1,6 +1,6 @@
 body{
     font-family: 'Ubuntu', sans-serif;
-    background-image: url(../img/preta.jpg);
+    background-image: url(../img/mulher.jpeg);
     background-repeat: no-repeat top;
     background-clip: border-box;
     background-size: cover;
@@ -23,7 +23,7 @@ body{
     font-size: bolder;
 }
 .btn-2{
-    color: #4b0082;
+    color: white;
     font-size: bolder;
 
 }
