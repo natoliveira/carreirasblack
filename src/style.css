@@ -3,7 +3,6 @@ body{
     background-image: url(../img/mulher.jpeg);
     background-repeat: no-repeat top;
     background-clip: border-box;
-    background-size: cover;
     justify-content: center;
     position: absolute;
     width: 100%;
