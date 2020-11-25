@@ -142,12 +142,10 @@ border-radius: 30px;
 .texto{
     padding: 2em;
 }
-.convidado{
-    width: 350px;
-    margin: auto;
-    padding: 1em 0;
+.convidado .d-flex div{
+    padding: 1em;
+    
     
 }
 .convidado img{
-    margin-left: 20px;
 }
