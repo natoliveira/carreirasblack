@@ -13,10 +13,8 @@ body{
 
 .container{
     text-align: rigth;
-    text-align: center;
+    text-align: justify;
     font-family:'Titillium Web', sans-serif;
-    align-items: center;
-    justify-content: center;
 }
 
 .btn-6{

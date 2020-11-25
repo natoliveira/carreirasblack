@@ -2,6 +2,7 @@ body{
     font-family: 'Ubuntu', sans-serif;
     background-image: url(../img/mulher.jpeg);
     background-repeat: no-repeat top;
+    background-clip: border-box;
     background-size: cover;
     justify-content: center;
     position: absolute;
@@ -52,14 +53,18 @@ p{
 }
 
 .caixadireita{
-    width: 240px;
+    width: 230px;
     position: relative;
     bottom: 30px;
-    left: 5%;
+    left: 7%;
+    font-size: 24px;
+    text-align: center;
 
 }
 .caixaesquerda{
-    width: 240px; 
+    width: 240px;
+    font-size: 23px; 
+    text-align: center;
 
 }
 #btn-1{
@@ -121,9 +126,4 @@ border-radius: 30px;
     }
 
 }
-
-
-
-
-
 

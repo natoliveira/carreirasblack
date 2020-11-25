@@ -53,14 +53,14 @@
         <!-- <img class="logo-principal" src="img/logo.jpeg" alt="Logo Principal">-->
     </div>
     <div class="container">
-
+    
         <h2 class="">Live</h2>
 
 
         <div class="row">
             <div class="col">
                 <div class="container">
-                    <div>
+                    <div class="paragrafo">
                         <h3>Ser pessoa preta e entrar no mercado de trabalho</h3>
                         <p>Desafios, dicas, casos de sucesso e participações especiais!</p>
                         <p>Você sabia, que segundo uma pesquisa encomendada  pelo site VAGAS.COM, negros mesmo formados no ensino superior, são minoria em cargos de alto escalão?</p>
@@ -69,7 +69,7 @@
                         <p>Se inscreva e junte se a nós!</p>
                     </div>
                     <div class="flutuante">
-                        <p class="bordaroxa caixaesquerda"><b>25/11 no Youtube</b> às <b>18h30m</b></p>
+                        <p class="bordaroxa caixaesquerda"><b>26/11 no Youtube</b> às <b>18h30m</b></p>
                         <p class="bordaroxa caixadireita"><label>Inscreva-se</label>, é grátis ;)</p>
                     </div>
                 </div>
@@ -86,11 +86,36 @@
                         <input name="redirectTo" type="hidden" value="#"/>
                         <input type="submit" value="Inscrever-se" class="btn-primary btn-block botaocenter" />
                     </form>
+                    <h3> A live começa em : <p id="countdown"></p></h3>
                 </div>
             </div>
         </div>
     </div>
     </div>
+    <script>
+
+        var countDownDate = new Date("November 25, 2020 19:00:00").getTime();
+        var x = setInterval(function() {
+        
+          
+          var now = new Date().getTime();
+          
+          var distance = countDownDate - now;
+         
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+          document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+          + minutes + "m " + seconds + "s ";
+            
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("countdown").innerHTML = "A live ja começou";
+          }
+        }, 1000);
+        </script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -111,7 +136,7 @@
             a.appendChild(r);
         })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
     </script>
-     <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
