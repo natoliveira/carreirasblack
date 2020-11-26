@@ -125,6 +125,9 @@ border-radius: 30px;
         font-size: 18px;
 
     }
+    .convidados{
+    border-top:100px;
+    }
 
 }
 #countdown{
@@ -138,22 +141,35 @@ border-radius: 30px;
 .texto{
     padding: 2em;
 }
-.convidado .d-flex div{
-    padding: 1em;
-    
+.col-sm p{
+
+    display: auto;
+    padding: 1px;
     
 }
-.convidado img{
+.col-sm{
+    border-top:30em;
+}
+#convidados{
+    margin-bottom: 2em;
+   margin-left:1em:;
+}    
+}
+.col-sm img{
+    overflow: hidden;  
+    
 }
 
 .icones-sociais li
 {
     display: inline;
-    float: right;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
 }
-.solange{
-   
-    
+li a{
+   float: right; 
+   width: 40px;
+   height: 40px;
+   display: inline;
+   margin-right: 3em;
 }

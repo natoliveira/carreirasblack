@@ -1,13 +1,8 @@
 body{
     font-family: 'Ubuntu', sans-serif;
-    background-image: url(../img/mulher.jpeg);
-    background-repeat: no-repeat top;
-    background-clip: border-box;
+    background-image: url(../img/prince-akachi-LWkFHEGpleE-unsplash\ 2.jpg);
     background-size: cover;
     justify-content: center;
-    margin-left: 400px;
-    font-size:200%;
-    background-attachment: fixed;
 }
 
 .container{
@@ -43,4 +38,13 @@ body{
     font-size:40px;
     color: white;
     
+}
+
+.icones-sociais li
+{
+    display: inline;
+    float: right;
+    border-left:10em;
+    width: 60px;
+    height: 60px;
 }
